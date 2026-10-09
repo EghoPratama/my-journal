@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+My Journal
 
-## Getting Started
+A personal journal website built with Next.js to document everyday moments, thoughts, and memories.
 
-First, run the development server:
+Live Website: https://my-journal-five-rust.vercel.app
 
-```bash
+About
+
+My Journal is a personal space to capture everyday stories, memorable moments, and reflections in a simple and minimal reading experience.
+
+Journal entries are written in Markdown and stored in the content/posts/ directory.
+
+Tech Stack
+Next.js — React framework
+TypeScript — Type-safe JavaScript
+CSS — Styling
+Markdown — Journal content
+Vercel — Deployment
+Getting Started
+Prerequisites
+Node.js
+npm
+Installation
+
+Clone the repository:
+
+git clone https://github.com/EghoPratama/my-journal.git
+cd my-journal
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open http://localhost:3000 in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Adding a Journal Entry
+Create a new Markdown file in content/posts/.
+Write your journal entry using Markdown.
+Follow the post format expected by the application.
+Run the development server to preview your changes.
 
-## Learn More
+Example project structure:
 
-To learn more about Next.js, take a look at the following resources:
+my-journal/
+├── app/
+├── content/
+│   └── posts/
+│       └── my-new-entry.md
+├── lib/
+│   └── posts.ts
+├── public/
+├── package.json
+└── README.md
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is deployed on Vercel and connected to GitHub.
 
-## Deploy on Vercel
+Push changes to the master branch to trigger a production deployment.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+All rights reserved unless otherwise specified.
